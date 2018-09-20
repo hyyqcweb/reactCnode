@@ -1,0 +1,10 @@
+dist/
+.temp/
+.rn_temp/
+node_modules/
+
+# webstrom
+.idea
+
+*.lock
+package-lock.json
