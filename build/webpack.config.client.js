@@ -10,7 +10,7 @@ module.exports = {
 	output: {
 		filename: '[name].[hash].js',
 		path: path.join(__dirname, '../dist'),
-		publicPath: ''
+		publicPath: '/public'
 	},
 	// 项目运行规则 可以适配 jsx,js文件
 	module: {
@@ -30,6 +30,8 @@ module.exports = {
 	},
 	// 项目运行在web端
 	plugins: [
-		new HTMLPlugin()
+		new HTMLPlugin({
+			template: path.join(__dirname, '../client/template.html')
+		})
 	]
 };
