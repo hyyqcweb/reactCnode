@@ -1,6 +1,7 @@
 ##### 这是一个万中无一的项目 :relaxed::relaxed::relaxed:
 
 :heart:  详细配置了 webpack 
+
 :heart:  项目采用了严格的 eslint (开发过程中的eslint, 乃至commit提交过程中的 eslint强制检测,让人有一种脑壳疼的感觉),为了更好的团队协作
 
 ###### webpack 配置详解  :relaxed:
