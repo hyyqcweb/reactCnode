@@ -1,5 +1,5 @@
-const path = require('path')
-const HTMLPlugin = require('html-webpack-plugin')
+const path = require('path');
+const HTMLPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	// 项目入口文件 主 app.js
@@ -32,4 +32,4 @@ module.exports = {
 	plugins: [
 		new HTMLPlugin()
 	]
-}
+};
