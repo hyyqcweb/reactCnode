@@ -1,9 +1,9 @@
-const path = require('path');
-const webpack = require('webpack');
-const HTMLPlugin = require('html-webpack-plugin');
+const path = require('path')
+const webpack = require('webpack')
+const HTMLPlugin = require('html-webpack-plugin')
 
 // 判断是否为开发环境
-const isDev = process.env.NODE_ENV === 'development';
+const isDev = process.env.NODE_ENV === 'development'
 
 const config = {
 	// 项目入口文件 主 app.js
@@ -72,4 +72,4 @@ if(isDev) {
 	config.plugins.push(new webpack.HotModuleReplacementPlugin())
 }
 
-module.exports = config;
+module.exports = config
