@@ -126,7 +126,7 @@
 	  "name": "react-cnode", // 项目名称
 	  "version": "1.0.0", // 项目版本号
 	  "description": "", // 项目描述
-	  "main": "index.js", // 主文件入口
+	  "main": "index.jsx", // 主文件入口
 	  "scripts": {
 	    "build:client": "webpack --config build/webpack.config.client.js", // web端打包
 	    "build:server": "webpack --config build/webpack.config.server.js", // server(node端)打包
