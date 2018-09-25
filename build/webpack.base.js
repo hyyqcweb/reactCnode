@@ -1,6 +1,9 @@
 const path = require('path')
 
 module.exports = {
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
   // 项目运行规则 可以适配 jsx,js文件
   module: {
     rules: [
